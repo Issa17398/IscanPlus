@@ -1,0 +1,49 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.db
+*.sqlite3
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+.env/
+
+# Fichiers de configuration IDE (Visual Studio Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Dossiers et fichiers générés par Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+*.log
+
+# Dossiers de stockage de fichiers temporaires
+media/
+
+# Fichiers de configuration de Docker
+docker-compose.override.yml
+.docker/
+
+# Configuration des clés secrètes et variables sensibles
+.env
+*.env
+
+# Fichiers générés pour les migrations et les tests
+*.bak
+*.swp
+
+# Fichiers temporaires de système
+Thumbs.db
+.DS_Store
+
+# Cache de Python
+*.egg-info/
+dist/
+build/
